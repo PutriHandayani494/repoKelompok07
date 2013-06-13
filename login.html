@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <title>Web site</title>
+    <link id="theme" rel="stylesheet" type="text/css" href="style.css" title="theme" />
+  </head>
+  <body> 
+    <div id="wrapper"> 
+      <div id="bg"> 
+        <div id="header"></div>  
+        <div id="page"> 
+          <div id="container">
+			<div id='pembungkus'>
+            <!-- banner -->  
+            <div id="banner">
+				<div class='logo'>
+					<img src='images/unsyiah.png'/>
+				</div>
+				<div class='tulisan'>
+					<p>Sistem Diseminasi Informasi Jurusan Informatika</p>
+				</div>
+			</div>  
+            <!-- end banner -->  
+            <!-- horizontal navigation -->  
+            <div id="nav1">
+            <ul>
+                 <li>
+                  <a href="index.html" shape="rect">Home</a>
+                </li>
+                   <li id="current" style="border:none">
+                  <a href="login.html" shape="rect">Login</a>
+                </li>
+                <li>
+                  <a href="forum.html" shape="rect">Forum</a>
+                </li>
+                <li>
+                  <a href="news.html" shape="rect">News</a>
+                </li>
+                <li></li>
+              </ul> 
+            </div> 
+			</div>			
+            <!-- end horizontal navigation -->  
+            <!--  content -->  
+            <div id="content"> 
+              <!-----UNTUK INCLUDE2---->
+			  
+				<div id="center"> 
+                <div id="welcome">  
+                  <h1>Login</h1>
+                  <form action="index.html" method="post" name="input_data" id="input_data">
+                    <table border="0" cellpadding="5" cellspacing="0">
+                      <tbody>
+                        <tr>
+                          <td>Pengguna</td>
+                          <td>:</td>
+                          <td><select name="pengguna" >
+                            <option> Admin</option>
+                            <option>Editor</option>
+                            <option>Dosen</option>
+                            <option>Mahasiswa</option>
+                          </select></td>
+                        </tr>
+                        <tr>
+                          <td>Username</td>
+                          <td>:</td>
+                          <td><input type="text" name="fullname" maxlength="100" required="required" /></td>
+                        </tr>
+                        <tr>
+                          <td>Password</td>
+                          <td>:</td>
+                          <td><input type="password" name="password" maxlength="20" required="required" /></td>
+                        </tr>
+                        <tr>
+                          <td align="right" colspan="3"><a href="editor/home-editor.html">.</a>
+                            <input type="submit" name="submit" value="Login" /> <a href="index.html">
+                          <a href="admin/home-admin.html">.</a></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </form>
+                  <h3>&nbsp;</h3><div> 
+                  </div>  
+                  <h2>&nbsp;</h2>
+<p style="clear:both" /> 
+                </div> 
+              </div>  
+			  
+              <!-----UNTUK INCLUDE2---->
+              <div id="right"> 
+                <div id="sidebar"> 
+                  <h3>Calender</h3>  
+                  <ul class="vmenu">
+                    <li><img src="images/images.jpg" width="196" height="185" /></li>
+                  </ul>  
+                  <h3 style="margin-top:40px">Jadwal kuliah</h3>  
+                  <p><a href="files/jadwal-kuliah.pdf">Informatika 2010</a></p>
+                  <p><a href="files/jadwal-kuliah.pdf">Informatika 2011</a></p>
+                  <p><a href="files/jadwal-kuliah.pdf">Informatika 2012</a></p>  
+                  <div style="font-weight:bold;margin-top:20px"></div>  
+                  <div style="text-align:center;margin:20px 0"></div> 
+                </div> 
+              </div>  
+              <div align="center"></div>
+              <div class="clear" style="height:40px"></div> 
+            </div>  
+            <!-- end content --> 
+          </div>  
+          <!-- end container --> 
+        </div>  
+        <div id="footerWrapper"> 
+          <div id="footer"> 
+            <p style="padding-top:10px"> 
+              
+            </p> 
+          </div> 
+        </div> 
+      </div> 
+    </div> 
+  </body>
+</html>

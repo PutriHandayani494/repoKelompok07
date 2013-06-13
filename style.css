@@ -1,0 +1,334 @@
+
+/* 
+----------------------------------------------------------------------------------------
+
+Copyright 2010 - Thierry Ruiz - www.dotemplate.com - All rights reserved.
+
+THIS TEMPLATE IS FREE AS LONG AS YOU KEEP THE LINK TO WWW.DOTEMPLATE.COM IN THE FOOTER
+TO REMOVE THE LINK, PLEASE MAKE A 10 DOLLARS DONATION at www.dotemplate.com/#donate
+
+----------------------------------------------------------------------------------------
+*/
+
+
+html {
+	background: #EFF3FF;
+	margin:0 0 0 -1px;
+	padding:0;	
+	overflow-Y: scroll;
+}
+
+
+body {
+	padding:0;
+	margin :0;
+	display:table; 
+	width:100%;	
+}
+
+
+					body {
+	color:#505050;
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: normal;
+}
+
+p {
+	letter-spacing: normal;
+	line-height: 1.7em;
+}
+
+h1 {
+	color:#6BB501;
+	font-size:22px;
+	margin:25px 0 10px 0;
+	clear:both;
+}
+
+
+h2 {
+	color:#6BB501;
+	font-size:20px;
+	margin:20px 0 10px 0;
+	clear:both;
+}
+
+
+h3 {
+	color:#6BB501;
+	font-size:18px;
+	margin:20px 0 5px 0;
+	clear:both;
+}
+
+
+
+a:link, a:visited {
+	color:#6BB501;
+	text-decoration:none;
+}
+
+
+a:hover {
+	color:#ffb508;
+	text-decoration:underline;
+}
+	
+					
+#wrapper {
+	background: transparent url( images/css/page-vbg.jpg ) repeat-y scroll 50% 0px;
+	margin:0 auto ;
+	width:100%;
+}
+
+					body {
+	background-color:#EFF3FF;
+}
+
+#wrapper {
+	border-top: 1px solid #ffffff;
+}
+	
+
+#bg {
+	margin:0 auto;
+	padding:0;
+	background:transparent ;
+	background-image:url(images/css/hat.jpg);
+ 	background-repeat:no-repeat;	
+	background-position: center top ;
+}
+
+
+
+					#header {
+	margin: 0 auto;
+	min-height:25px;
+	height: 25px;
+	width: 800px;
+}
+	
+
+#page {
+	background: none;
+  top:10px;
+  left:100px;
+}
+
+
+					
+
+#container {
+	margin:0 auto;
+	width:800px;
+}
+
+
+#pembungkus{width:100%; padding: 8px 0px 8px; }
+#banner {
+background-color: #46FA05; /* Change this to change both stribe colors */
+	
+	background-image: -webkit-gradient(linear, 0 100%, 100% 0,
+							color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent),
+							color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)),
+							color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent),
+							to(transparent)); /* Old webkit syntax */
+	background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+							transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+							transparent 75%, transparent); /* New webkit syntax */					
+	background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+							transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+							transparent 75%, transparent); /* Firefox */
+	background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+							transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+							transparent 75%, transparent); /* Opera */
+	background-image: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+							transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+							transparent 75%, transparent); /* WC3 */
+	background-size: 20px 20px;
+	margin: 0 auto;
+	height:150px;
+	width:98%;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+}
+.logo{float:left;width:180px; height: auto;padding:5px}
+.logo img{width:170px; height:140px;}
+
+.tulisan{float:right;width:580px}
+.tulisan p{font-family: chewy; font-size:28px}
+					
+
+#nav1 {
+	background: #000;
+	height:35px;
+	margin:0 auto ;
+	text-align:center;
+	width:98%;
+}
+
+#nav1 ul {
+	display:table;
+	margin:0 auto;
+	padding:0;
+	list-style-type:none;
+	position:relative;
+	height:35px;
+	text-transform:uppercase;
+	font-size:12px;
+	font-family:Arial,sans-serif;
+}
+
+
+#nav1 ul li {
+	display:block;
+	float:left;
+	margin:0;
+	padding:0;
+	background:transparent url('images/css/hmenu.jpg') repeat-x top left;
+	border-left:1px solid #1e1e1e;
+
+}
+
+
+#nav1 ul li a {
+	display:block;
+	float:left;
+	color:#FFFFFF;
+	text-decoration:none;
+	padding:0px 46px ;
+	line-height:35px;
+	font-weight:bold;
+}
+
+
+#nav1 ul li a:hover, #nav1 li#current a {
+	color:#FFFFFF;
+	background:transparent url('images/css/hmenu-sel.jpg') repeat-x top left;
+}
+
+	
+
+#content {
+	width:780px;
+	margin:0 auto ;
+	text-align:left;
+	min-height:800px;
+}
+
+
+#content p {
+	text-align:justify;
+}
+	
+
+
+
+#footerWrapper {
+	margin:0 auto;
+	height:130px;
+	padding:0;
+	background:transparent url( images/css/footerWrapper-bg.jpg ) no-repeat scroll center top;
+}
+
+
+#footer {
+	margin:0 auto;
+	padding:0;
+	width:800px;
+	height:50px;
+}
+
+
+					#footer {
+	color:#FFFFFF;
+	text-align:center;
+}
+
+#footer a:link, #footer a:visited {
+	color:#FFFFFF;
+}
+
+
+#footer a:hover{
+	color:#ffb508;
+	text-decoration:none;
+}
+
+	
+	
+					
+#right {
+	width:200px;
+	padding:10px 20px 20px 20px;
+	float:left;
+}
+
+
+#center {
+	width:500px;
+	padding:10px 20px 20px 20px;
+	float:left;
+}
+
+ 
+#content p {
+	margin-top:10px;
+	text-align:justify;
+}
+
+#sidebar p{line-height: 10px;}
+										
+#sidebar ul.vmenu {
+	list-style: none;
+	text-align: left;
+	margin: 7px 0px 8px 0px; 
+	padding: 0;
+	text-decoration: none;	
+	border-top: 1px solid #EEEEEE;
+}
+
+
+#sidebar ul.vmenu li {
+	list-style: none;
+	padding: 4px 0 4px 0px;
+	margin: 0 2px;	
+	border-bottom: 1px solid #EEEEEE;
+}
+
+
+
+#sidebar ul.vmenu li a {
+	text-decoration: none;
+	color:#6BB501;
+}
+
+
+#sidebar ul.vmenu li a:hover {
+	color:#ffb508;
+}
+
+
+#sidebar ul.vmenu ul { margin: 0 0 0 5px; padding: 0; }
+#sidebar ul.vmenu ul li { border: none; }
+
+
+			
+
+
+a img {
+	border:none;
+} 
+
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
